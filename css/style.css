@@ -1,0 +1,84 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  background-color: #0a0a0a;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+header {
+  padding: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.typing {
+  display: inline-block;
+  border-right: 2px solid #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3s steps(20, end), blink 0.8s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+.button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background: linear-gradient(45deg, #2575fc, #6a11cb);
+}
+
+.features {
+  padding: 2rem;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.demo {
+  padding: 2rem;
+}
+
+footer {
+  padding: 1rem;
+  font-size: 0.9rem;
+  background-color: rgba(0,0,0,0.4);
+  position: relative;
+  z-index: 1;
+}
