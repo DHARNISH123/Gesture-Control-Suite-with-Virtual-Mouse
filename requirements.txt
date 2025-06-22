@@ -1,0 +1,8 @@
+mediapipe
+opencv-python
+numpy
+pyautogui
+keyboard
+comtypes
+pycaw
+screen-brightness-control
